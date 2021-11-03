@@ -21,12 +21,11 @@ Note that the y-axis scales are slightly different, most noticably for the secon
 
 # Installation
 
-     pip install git+https://github.com/vsoch/TtoZ.git
+     mamba create --name t2z python=3.6.13 pip=21.3.1 seaborn=0.11.2 numpy=1.19.5 nibabel=3.2.1 nilearn=0.8.1 matplotlib=3.3.4 jupyter=1.0.0
 
-
-or from pypi:
-
-    pip install TtoZ
+     conda activate t2z
+     
+     pip install TtoZ
 
 
 # Usage
